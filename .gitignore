@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.DS_Store
+experiments/results/e5_cells.npz

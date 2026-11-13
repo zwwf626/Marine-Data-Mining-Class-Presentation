@@ -1,0 +1,158 @@
+{
+  "truth_global_mean": 0.273276359131343,
+  "T1_global_mean": [
+    {
+      "grid": "LatLon 5deg",
+      "n_cells": 2592,
+      "unweighted": 0.24786361221255374,
+      "area_weighted": 0.27327637037142405,
+      "bias_unweighted": -0.02541274691878928,
+      "bias_weighted": 1.1240081032592997e-08,
+      "rel_bias_unweighted": -0.09299284797107282,
+      "area_max_over_min": 22.903765548431274
+    },
+    {
+      "grid": "LatLon 2deg",
+      "n_cells": 16200,
+      "unweighted": 0.24764767838644514,
+      "area_weighted": 0.2732763463700954,
+      "bias_unweighted": -0.02562868074489788,
+      "bias_weighted": -1.2761247614179183e-08,
+      "rel_bias_unweighted": -0.09378301447795613,
+      "area_max_over_min": 57.28996163076244
+    },
+    {
+      "grid": "H3 r3",
+      "n_cells": 41162,
+      "unweighted": 0.27307372909245403,
+      "area_weighted": 0.27328357770465794,
+      "bias_unweighted": -0.00020263003888898456,
+      "bias_weighted": 7.218573314926591e-06,
+      "rel_bias_unweighted": -0.0007414839671206093,
+      "area_max_over_min": 2.3673246775771317
+    },
+    {
+      "grid": "H3 r4",
+      "n_cells": 288122,
+      "unweighted": 0.27306784061084016,
+      "area_weighted": 0.27327608069062964,
+      "bias_unweighted": -0.0002085185205028539,
+      "bias_weighted": -2.784407133749056e-07,
+      "rel_bias_unweighted": -0.0007630316839907657,
+      "area_max_over_min": 2.3823655518224656
+    },
+    {
+      "grid": "A5 r7",
+      "n_cells": 245760,
+      "unweighted": 0.2733510245850256,
+      "area_weighted": 0.273276137323964,
+      "bias_unweighted": 7.466545368256527e-05,
+      "bias_weighted": -2.2180737901944525e-07,
+      "rel_bias_unweighted": 0.00027322324521558526,
+      "area_max_over_min": 1.1470772580636983
+    },
+    {
+      "grid": "A5 r8",
+      "n_cells": 983040,
+      "unweighted": 0.2733515506718222,
+      "area_weighted": 0.2732762966456999,
+      "bias_unweighted": 7.519154047919141e-05,
+      "bias_weighted": -6.248564310418203e-08,
+      "rel_bias_unweighted": 0.0002751483542820936,
+      "area_max_over_min": 1.1470752289959407
+    }
+  ],
+  "T2_regions": {
+    "names": [
+      "北海",
+      "巴伦支海",
+      "西北太平洋",
+      "秘鲁外海",
+      "几内亚湾",
+      "阿拉伯海",
+      "南大洋",
+      "墨西哥湾"
+    ],
+    "truth": [
+      0.43409982928882773,
+      0.1433620028802544,
+      0.5427447256775855,
+      0.07018440265018795,
+      0.19806745382475952,
+      0.19612747645914896,
+      0.20599305563160575,
+      0.3040930232519064
+    ],
+    "unweighted": [
+      0.4265380309108599,
+      0.1383910517879302,
+      0.5437571555202904,
+      0.07051763755525312,
+      0.19806666660428618,
+      0.19715862537700302,
+      0.2015690716255197,
+      0.305301538350272
+    ],
+    "weighted": [
+      0.4340998292888277,
+      0.1433619665007845,
+      0.5427447256775854,
+      0.07018469246414862,
+      0.19806745382475952,
+      0.19612747645914896,
+      0.20599307818378976,
+      0.3040930232519064
+    ],
+    "inversions_unweighted": 0,
+    "inversions_weighted": 0,
+    "n_pairs": 28,
+    "max_abs_err_unweighted": 0.007561798377967832,
+    "max_abs_err_weighted": 2.898139606632988e-07
+  },
+  "T3_regrid": [
+    {
+      "grid": "H3 r2",
+      "n_target": 5882,
+      "rmse_unweighted": 0.009497062933033717,
+      "rmse_weighted": 0.009491267647560959,
+      "nrms_unweighted": 0.0624628865228683,
+      "nrms_weighted": 0.06242477050095658,
+      "improvement": 0.0006102187079964905,
+      "latcorr_unweighted": 0.22770524216190904,
+      "latcorr_weighted": 0.22560725540597387
+    },
+    {
+      "grid": "H3 r3",
+      "n_target": 38713,
+      "rmse_unweighted": 0.00996776438964361,
+      "rmse_weighted": 0.009968034863767102,
+      "nrms_unweighted": 0.06445366102393314,
+      "nrms_weighted": 0.06445540996650341,
+      "improvement": -2.7134883301860313e-05,
+      "latcorr_unweighted": 0.017341565143419124,
+      "latcorr_weighted": 0.017427034952551393
+    },
+    {
+      "grid": "A5 r4",
+      "n_target": 3840,
+      "rmse_unweighted": 0.012432766414470105,
+      "rmse_weighted": 0.012427589719140892,
+      "nrms_unweighted": 0.08121506375918805,
+      "nrms_weighted": 0.08118124782255672,
+      "improvement": 0.00041637517802861623,
+      "latcorr_unweighted": -0.006978756234785219,
+      "latcorr_weighted": -0.008321716857428076
+    },
+    {
+      "grid": "A5 r5",
+      "n_target": 15360,
+      "rmse_unweighted": 0.008372942144333059,
+      "rmse_weighted": 0.008370296911380921,
+      "nrms_unweighted": 0.0540047905515089,
+      "nrms_weighted": 0.05398772901578136,
+      "improvement": 0.00031592633826182936,
+      "latcorr_unweighted": 0.09434160128494007,
+      "latcorr_weighted": 0.0932559243944311
+    }
+  ]
+}

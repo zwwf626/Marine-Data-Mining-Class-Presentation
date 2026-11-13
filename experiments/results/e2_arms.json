@@ -1,0 +1,86 @@
+{
+  "n_city": 120,
+  "target_area_km2": 10.0,
+  "arms": {
+    "A5_r12_pcell": {
+      "grid": "A5 r12",
+      "normalized_by_area": false,
+      "mean_density": 4.325055895062002,
+      "mean_cells": 5.0,
+      "mean_cell_area": 2.027615900699286,
+      "spearman_vs_fine": 0.6062712688381137,
+      "top10_overlap": 6,
+      "max_rank_shift": 77.0
+    },
+    "A5_r13_pcell": {
+      "grid": "A5 r13",
+      "normalized_by_area": false,
+      "mean_density": 6.452435043332271,
+      "mean_cells": 20.0,
+      "mean_cell_area": 0.5069034880075617,
+      "spearman_vs_fine": 0.6960136120563927,
+      "top10_overlap": 7,
+      "max_rank_shift": 69.0
+    },
+    "A5_r14_pcell": {
+      "grid": "A5 r14",
+      "normalized_by_area": false,
+      "mean_density": 11.142301702574915,
+      "mean_cells": 79.375,
+      "mean_cell_area": 0.1267258931186711,
+      "spearman_vs_fine": 0.7257170636849781,
+      "top10_overlap": 7,
+      "max_rank_shift": 65.0
+    },
+    "A5_r14_pkm2": {
+      "grid": "A5 r14",
+      "normalized_by_area": true,
+      "mean_density": 11.14240955495536,
+      "mean_cells": 79.375,
+      "mean_cell_area": 0.12672465170340516,
+      "spearman_vs_fine": 0.7257170636849781,
+      "top10_overlap": 7,
+      "max_rank_shift": 65.0
+    },
+    "A5_r15_pcell": {
+      "grid": "A5 r15",
+      "normalized_by_area": false,
+      "mean_density": 32.45324141507468,
+      "mean_cells": 316.125,
+      "mean_cell_area": 0.03168145974479234,
+      "spearman_vs_fine": 1.0,
+      "top10_overlap": 10,
+      "max_rank_shift": 0.0
+    },
+    "H3_r8_pcell": {
+      "grid": "H3 r8",
+      "normalized_by_area": false,
+      "mean_density": 5.625785907024395,
+      "mean_cells": 14.316666666666666,
+      "mean_cell_area": 0.7401715514944915,
+      "spearman_vs_fine": 0.5962011250781303,
+      "top10_overlap": 7,
+      "max_rank_shift": 93.0
+    },
+    "H3_r9_pcell": {
+      "grid": "H3 r9",
+      "normalized_by_area": false,
+      "mean_density": 12.386837861433037,
+      "mean_cells": 97.125,
+      "mean_cell_area": 0.10573738633320975,
+      "spearman_vs_fine": 0.44557260920897274,
+      "top10_overlap": 3,
+      "max_rank_shift": 101.0
+    },
+    "H3_r9_pkm2": {
+      "grid": "H3 r9",
+      "normalized_by_area": true,
+      "mean_density": 12.398288205331232,
+      "mean_cells": 97.225,
+      "mean_cell_area": 0.10563583311235895,
+      "spearman_vs_fine": 0.44469060351413287,
+      "top10_overlap": 3,
+      "max_rank_shift": 101.0
+    }
+  }
+}
