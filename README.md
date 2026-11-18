@@ -5,6 +5,17 @@
 本仓库是《海洋大数据 / 海洋数据挖掘》课程期末作业的全部材料：实验报告、代码、数据产物、
 以及完整的人机协作对话记录。
 
+**仓库地址**：<https://github.com/zwwf626/Marine-Data-Mining-Class-Presentation>
+
+| 你要看的东西 | 位置 |
+|---|---|
+| 实验报告（Word，含封面与图表） | [`实验报告.docx`](实验报告.docx) |
+| 实验报告（Markdown） | [`实验报告.md`](实验报告.md) |
+| **完整逐字聊天记录**（37 万字符，由原始日志导出） | [`chat-log/完整会话记录.md`](chat-log/完整会话记录.md) |
+| 聊天记录要点版（便于速览） | [`chat-log/对话要点（摘要）.md`](chat-log/对话要点%EF%BC%88摘要%EF%BC%89.md) |
+| 实验代码 | [`experiments/`](experiments/) |
+| 实验输出（JSON） | [`experiments/results/`](experiments/results/) |
+
 ---
 
 ## 一句话结论
