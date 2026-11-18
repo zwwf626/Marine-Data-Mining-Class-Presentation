@@ -1,0 +1,47 @@
+{
+  "n_points": 3000000,
+  "rows": [
+    {
+      "field": "uniform",
+      "grid": "H3 r4",
+      "r2": 0.041837876636867,
+      "var_logA": 0.0041742858448720385,
+      "n_mask": 191326
+    },
+    {
+      "field": "uniform",
+      "grid": "LatLon 1deg",
+      "r2": 0.9037633677265029,
+      "var_logA": 0.25005797329184887,
+      "n_mask": 59040
+    },
+    {
+      "field": "uniform",
+      "grid": "LatLon 2deg",
+      "r2": 0.9811340089361575,
+      "var_logA": 0.5018964730019255,
+      "n_mask": 15840
+    },
+    {
+      "field": "baseline",
+      "grid": "H3 r4",
+      "r2": 0.463321169476364,
+      "var_logA": 0.025881036938917117,
+      "n_mask": 33755
+    },
+    {
+      "field": "baseline",
+      "grid": "LatLon 1deg",
+      "r2": 0.8973433738416693,
+      "var_logA": 0.19178622070430285,
+      "n_mask": 10317
+    },
+    {
+      "field": "baseline",
+      "grid": "LatLon 2deg",
+      "r2": 0.9215181910202084,
+      "var_logA": 0.23774182089315937,
+      "n_mask": 3460
+    }
+  ]
+}
